@@ -1,0 +1,35 @@
+{
+  "name": "miniroyale2-client-template",
+  "version": "0.0.0",
+  "description": "A MiniRoyale2.io client template made by Voidwave",
+  "main": "src/boot.js",
+  "node-remote": "https://miniroyale2.io/*",
+  "window": {
+    "title": "MiniRoyale2",
+    "icon": "src/app.png"
+  },
+  "scripts": {
+    "start": "nw"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/undefined-developer/miniroyale2-client-template.git"
+  },
+  "author": "Voidwave",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/undefined-developer/miniroyale2-client-template/issues"
+  },
+  "homepage": "https://github.com/undefined-developer/miniroyale2-client-template#readme",
+  "devDependencies": {
+    "nw": "^0.44.5"
+  },
+  "dependencies": {
+    "discord-rpc": "^3.1.0"
+  },
+  "webkit": {
+    "java": false,
+    "plugin": false
+  },
+  "chromium-args": "--disable-frame-rate-limit --disable-pushstate-throttle --enable-quic --ignore-gpu-blacklist --disable-gpu-shader-disk-cache --disable-gpu-program-cache --disable-gpu-early-init --disable-canvas-aa --enable-javascript-harmony --disable-gpu-vsync --disable-web-security --load-extension=./src/Extensions/Extension1,./src/Extensions/Extension2,./src/Extensions/Extension3"
+}
