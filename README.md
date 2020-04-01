@@ -1,0 +1,1 @@
+# miniroyale2-client-template
