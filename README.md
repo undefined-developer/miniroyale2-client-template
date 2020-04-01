@@ -2,4 +2,4 @@
 
 Current Features:
 Unlimited FPS
-Chrome Extension Support
+Unpacked Chrome Extension Support
