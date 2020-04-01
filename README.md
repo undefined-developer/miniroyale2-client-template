@@ -7,3 +7,6 @@ Unlimited FPS
 
 
 Unpacked Chrome Extension Support
+
+
+Discord Integration
